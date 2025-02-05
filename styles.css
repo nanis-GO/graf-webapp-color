@@ -1,0 +1,79 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Tarjeta de color */
+.color-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid #ddd;
+    margin: auto;
+    transition: background 0.3s ease-in-out;
+}
+
+.hex-code {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Color picker */
+.form-control-color {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+/* Controles de color */
+.color-controls {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.color-group {
+    width: 30%;
+    min-width: 120px;
+    text-align: center;
+}
+
+.form-control {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Sliders personalizados */
+.form-range {
+    height: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Colores personalizados para los sliders */
+.red-slider {
+    background: linear-gradient(to right, #000, #ff0000);
+}
+.green-slider {
+    background: linear-gradient(to right, #000, #00ff00);
+}
+.blue-slider {
+    background: linear-gradient(to right, #000, #0000ff);
+}
